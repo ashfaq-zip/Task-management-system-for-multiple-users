@@ -3,7 +3,7 @@
 class crud{
     public $conn;
     function __construct(){
-        $this->conn = mysqli_connect('sql12.freemysqlhosting.net', 'sql12662446', 'ekqdUallvb', 'sql12662446');
+        $this->conn = mysqli_connect('localhost', 'root', '', 'todo');
     }
     
     function insert(){
